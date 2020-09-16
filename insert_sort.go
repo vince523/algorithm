@@ -1,6 +1,5 @@
 package algorithm
 
-
 func InsertSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr
