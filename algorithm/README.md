@@ -1,3 +1,0 @@
-## algorithm
-
-> just for learning
