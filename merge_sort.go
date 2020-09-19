@@ -10,8 +10,8 @@ func MergeSort(arr []int) []int {
 
 	mid := len(arr) / 2
 	left := arr[:mid]
-	rigth := arr[mid:]
-	return merge(MergeSort(left), MergeSort(rigth))
+	right := arr[mid:]
+	return merge(MergeSort(left), MergeSort(right))
 }
 
 func merge(left, right []int) []int {
